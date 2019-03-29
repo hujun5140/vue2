@@ -1,6 +1,7 @@
 $bgColor : #00bcd4;
 $darkTextColor : #333;
-// 超出宽度显示省略号  @include ell()调用;
+$headerHeight: .86rem;
+// 超出宽度显示省略号  @include ell()调用; 
 @mixin ell(){
     overflow:hidden;
     white-space: nowrap;
