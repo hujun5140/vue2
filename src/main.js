@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'babel-polyfill'
 import store from './store'
 // 解决移动端点击300毫秒的延迟
 import fastClick from 'fastclick'

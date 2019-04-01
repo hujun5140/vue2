@@ -6,7 +6,7 @@
                 :key="item" 
                 :ref="item"
                 @click="letterClick" 
-                @touchstart="touchStart" 
+                @touchstart.prevent="touchStart" 
                 @touchmove="touchMove"
                 @touchend="touchEnd">
                 {{ item }}
